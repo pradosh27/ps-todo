@@ -1,0 +1,36 @@
+.wrapper{
+    background: linear-gradient(rgba(0,0,0,.8) , rgba(0,0,0,.7)) , url('https://png.pngtree.com/thumb_back/fh260/background/20231001/pngtree-completed-to-do-list-icon-a-3d-rendering-of-a-notebook-image_13576111.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 2rem;
+}
+.app{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+.anchorbutton{
+    width: 180px;
+    position: relative;
+    left: 50px;
+    font-size: 1.2rem;
+    transition: 0.27s;
+}
+.anchorbutton:hover{
+    transform: translateY(-7px)scale(1.1);
+    background: white;
+    color: green;
+}
